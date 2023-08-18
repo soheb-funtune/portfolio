@@ -1,0 +1,40 @@
+
+.home-wrapper{
+    margin-top: 40px;
+}
+.name,.profession{
+    text-align: center;
+}
+.profession{
+    padding: 0px 20%;
+    margin-top: 40px;
+    text-align: center;
+    color: var(--primary2);
+}
+.profession-desc{
+    padding: 0px 20%;
+    margin-top: 40px;
+    text-align: center;
+    color: var(--secondary);
+}
+
+@media (max-width:600px){
+ .name{
+    text-align: left;
+ }
+ .profession,.profession-desc{
+    padding: 0px 20px;
+ }
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+.social-media .icon{
+    font-size: 25px;
+    color: var(--primary2);
+}

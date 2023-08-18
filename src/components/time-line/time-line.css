@@ -1,0 +1,53 @@
+
+
+
+.time-line{
+    margin-top: 40px;
+}
+
+.heading-text{
+    margin-top: 40px;
+    color: var(--secondary);
+    text-align: center;
+    
+}
+.heading-text span{
+    color: var(--secondary2);
+}
+
+.card{
+    margin: 40px 20px 0px 10%;
+    position: relative;
+
+}
+.side-icon{
+    position: absolute;
+    left: -50px;
+    top: 0;
+    color: var(--secondary2);
+
+}
+.side-icon .icon {
+   font-size: 50px;
+  background: transparent;
+}
+.actual-card{
+ /* margin-left: 30px; */
+ box-shadow: var(--shadow);
+ background-color: transparent;
+ padding: 20px 40px;
+ gap: 15px;
+display: flex;
+flex-direction: column;
+ 
+}
+.actual-card .staticHead{
+text-align: left;
+font-size: 13px;
+color: var(--secondary2);
+
+}
+.actual-card p{
+text-align: center;
+
+}

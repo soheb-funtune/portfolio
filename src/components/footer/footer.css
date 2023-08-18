@@ -1,0 +1,23 @@
+.footer-container{
+    background: var(--primary );
+    color: var(--bg);
+    width: 100%;
+    min-height: 100px;
+       padding: 40px 40px;
+    position: absolute;
+        left: 0;
+    right: 0;
+}
+
+.inner-container{
+    margin-top: 40px;
+}
+
+.heading-text{
+    margin-top: 40px;
+    color: var(--primary2);
+    text-align: center;
+    
+}
+.heading-text span{
+    color: var(--primary2);}
