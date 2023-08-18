@@ -4,9 +4,12 @@ import { AiTwotoneHeart } from "react-icons/ai";
 import { motion, AnimatePresence } from "framer-motion";
 import { BsGithub, BsLinkedin, BsInstagram } from "react-icons/bs";
 import { MdEmail, MdLocationOn, MdLocationPin } from "react-icons/md";
-import { BiSolidPhone } from "react-icons/bi";
+import { BiSolidPhone, BiUpArrowCircle } from "react-icons/bi";
 
 const Footer = () => {
+  const handleGoUp = () => {
+    window.scrollTo(0, 0);
+  };
   return (
     <div id="contact" className="footer-container">
       <div className="inner">
@@ -65,6 +68,9 @@ const Footer = () => {
         />{" "}
         By Mohammad Soheb
       </motion.h3>
+      <div className="up-arrow">
+        <BiUpArrowCircle onClick={() => handleGoUp()} className="icon" />
+      </div>
     </div>
   );
 };

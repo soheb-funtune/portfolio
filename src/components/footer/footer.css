@@ -49,3 +49,12 @@
         align-items: center;
         color: var(--primary);
     }
+
+    .up-arrow{
+        position: absolute;
+        top: -20px;
+        right: 20px;
+    }
+    .up-arrow .icon{
+        font-size: 35px;
+    }
