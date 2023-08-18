@@ -1,23 +1,43 @@
 .footer-container{
-    background: var(--primary );
-    color: var(--bg);
+  
+    background: var(--primary ) 0.5;
+    /* color: var(--bg); */
     width: 100%;
     min-height: 100px;
        padding: 40px 40px;
     position: absolute;
         left: 0;
     right: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
-.inner-container{
-    margin-top: 40px;
+.inner{
+   
+    margin-top: 40px  !important;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
 }
 
-.heading-text{
-    margin-top: 40px;
-    color: var(--primary2);
-    text-align: center;
+.contact-text{
+
+        color: var(--primary2);
+    text-align: left;
+    margin-bottom: 5px;
     
 }
-.heading-text span{
-    color: var(--primary2);}
+.contact-text span{
+    color: var(--primary);
+    font-size: 15px;
+}
+
+
+    .copy-write{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--primary);
+    }
