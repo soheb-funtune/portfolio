@@ -20,6 +20,14 @@
     justify-content: space-around;
     align-items: flex-start;
 }
+@media (max-width:767px){
+   .inner{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+   }
+}
 
 .contact-text{
 
