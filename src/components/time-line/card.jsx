@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const Card = ({ profession, role, from, duration }) => {
   return (
-    <div className="card">
+    <div style={{ display: "flex", gap: "5px" }}>
       <div className="side-icon">
         <TfiHandPointRight className="icon" />
       </div>
@@ -13,12 +13,14 @@ const Card = ({ profession, role, from, duration }) => {
         initial={{ x: -100, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
         transition={{ duration: 1 }}
-        className="actual-card"
+        className="card"
       >
-        <p className="staticHead">{profession}</p>
-        <p>{role}</p>
-        <p>{from}</p>
-        <p className="staticHead">{duration}</p>
+        <div className="actual-card">
+          <p className="staticHead">{profession}</p>
+          <p>{role}</p>
+          <p>{from}</p>
+          <p className="staticHead">{duration}</p>
+        </div>
       </motion.div>
     </div>
   );

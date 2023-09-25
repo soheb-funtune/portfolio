@@ -16,15 +16,17 @@
 }
 
 .card{
-    margin: 40px 20px 0px 10%;
+    margin: 40px 20px 0px 0;
     position: relative;
 
 }
 .side-icon{
-    position: absolute;
+    margin-top: 40px ;
+    /* position: absolute; */
     left: -50px;
     top: 0;
     color: var(--secondary2);
+    background: var(--secondary1);
 
 }
 .side-icon .icon {
