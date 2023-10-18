@@ -18,6 +18,7 @@
 .card{
     margin: 40px 20px 0px 0;
     position: relative;
+    width: 100%;
 
 }
 .side-icon{

@@ -19,8 +19,16 @@ const Resume = () => {
             loading ? <button>...Loading</button> : <button>Download</button>
           }
         </PDFDownloadLink>
+
         <button onClick={() => setPreview(!preview)}>
           {preview ? "Hide Resume " : "Preview Resume"}
+        </button>
+        {/* // new resume */}
+        <a href="/resume.pdf" download>
+          Updated Resume Donwload
+        </a>
+        <button onClick={() => window.open("/resume.pdf", "_blank")}>
+          Preview New
         </button>
       </div>
       {preview ? (

@@ -90,16 +90,23 @@ const Resume = (props) => (
         <Education />
         <Skills />
       </View>
-      {/* <View style={{ display: "flex", flexDirection: "column" }}>
-        <Text>
+      <View
+        style={{
+          display: "flex",
+          marginTop: "10px",
+          flexDirection: "column",
+          width: "100%",
+        }}
+      >
+        <Text style={{ fontSize: "15px" }}>
           Positivity-driven and confident individual with an aptitude for
           learning new technology. I am hoping for the position of MERN Stack
           Developer to apply sound knowledge of React.js and Node js, a good
           sense of UI design and a user-oriented focus, experience coding on
           JavaScript & soon.
-        </Text> */}
-      <Experience />
-      {/* </View> */}
+        </Text>
+        <Experience />
+      </View>
     </View>
     <Text style={styles.footer}>This IS the candidate you are looking for</Text>
   </Page>
