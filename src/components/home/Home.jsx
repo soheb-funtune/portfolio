@@ -37,9 +37,9 @@ const Home = () => {
           transition={{ duration: 1 }}
           className="profession-desc"
         >
-          A Front-End Developer who loves solving problems and building
-          projects. I am equipped with a variety of technologies and tools to
-          help me build the best possible product.
+          A React JS Developer who loves solving problems and building projects.
+          I am equipped with a variety of technologies and tools to help me
+          build the best possible product.
         </motion.h3>
       </AnimatePresence>
       <AnimatePresence>

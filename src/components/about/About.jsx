@@ -21,14 +21,6 @@ const About = () => {
             <h4 className="h4">
               Hi , I am <span className="diffColor">Mohammed Soheb </span>
               from <span className="diffColor">Nanded, Maharashtra. </span>{" "}
-              <br /> I have Completed my Diploma in{" "}
-              <span className="diffColor">
-                Computer Science and Engineering
-              </span>{" "}
-              in 2020 from{" "}
-              <span className="diffColor">
-                Matoshri Pratishthan Vishwabharati College Nanded.
-              </span>
               <br /> I have Completed my B-Tech in{" "}
               <span className="diffColor">
                 Computer Science and Engineering
@@ -36,6 +28,14 @@ const About = () => {
               in 2023 from{" "}
               <span className="diffColor">
                 Matoshri Pratishthan Group of Institute Nanded.
+              </span>
+              <br /> I have Completed my Diploma in{" "}
+              <span className="diffColor">
+                Computer Science and Engineering
+              </span>{" "}
+              in 2020 from{" "}
+              <span className="diffColor">
+                Matoshri Pratishthan Vishwabharati College Nanded.
               </span>
               <br />
               apart from Education I have Completed {` `}

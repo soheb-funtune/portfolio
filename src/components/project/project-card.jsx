@@ -2,7 +2,7 @@ import React from "react";
 import "./project.css";
 import { motion } from "framer-motion";
 
-const ProjectCard = () => {
+const ProjectCard = ({ title, text, imgpath }) => {
   return (
     <motion.div
       initial={{ x: -100, opacity: 0 }}
@@ -10,15 +10,10 @@ const ProjectCard = () => {
       transition={{ duration: 1 }}
       className="project-card"
     >
-      <img src={"./rb-uat.png"} alt="project" />
+      <img src={`./${imgpath}`} alt="project" />
       <div className="content">
-        <h3 className="title">Motor Insurance</h3>
-        <p className="desc">
-          This is a Motor Insurace web-side which is Developed to provide
-          insurance anywhere.
-          <br /> We provide insurance to all type of vehicles like (Bike, Car,
-          Comarcial Vehicle, GCV ,Tractor etc)
-        </p>
+        <h3 className="title">{title}</h3>
+        <p className="desc">{text}</p>
       </div>
     </motion.div>
   );
