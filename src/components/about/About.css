@@ -1,59 +1,54 @@
-
-.about-wrapper{
-    margin-top: 40px;
+.about-wrapper {
+  margin-top: 40px;
 }
 
-.about-text{
-    margin-top: 40px;
-    color: var(--secondary);
-    text-align: center;
-    
+.about-text {
+  margin-top: 40px;
+  color: var(--secondary);
+  text-align: center;
 }
-.about-text span{
-    color: var(--secondary2);
+.about-text span {
+  color: var(--secondary2);
 }
 
-.container{
-    display: flex;
-    gap: 30px;
-    margin: 40px;
-
+.container {
+  display: flex;
+  gap: 30px;
+  margin: 40px;
 }
-@media (max-width:600px){
-    .container{
-        flex-direction: column;
-        margin: 40px 0px 0px;
-    }
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    margin: 40px 0px 0px;
+  }
 }
-.container .image ,.content{
-    flex: 1;
-    display: flex;
+.container .image,
+.content {
+  flex: 1;
+  display: flex;
 }
 .container .image img {
-    border: solid;
-    border-radius: 20px;
-    height: 300px;
-    width: auto;
-    margin:  auto;
-   }
-
-.content{
-    
-}
-.content .h4{
-    color: var(--primary);
-    font-size: 15px;
-    line-height: 25px;
-    letter-spacing: 1.5px;
-
-}
-@media (max-width:600px){
-    .content .h4{
-       text-align: center;
-    }
+  border: solid;
+  border-radius: 20px;
+  height: 300px;
+  width: auto;
+  margin: auto;
 }
 
-.content .h4 .diffColor{
-    color: var(--secondary2);
+.content {
+}
+.content .h4 {
+  color: var(--primary);
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 1.5px;
+}
+@media (max-width: 600px) {
+  .content .h4 {
+    text-align: center;
+  }
+}
 
+.content .h4 .diffColor {
+  color: var(--secondary2);
 }
