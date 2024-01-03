@@ -14,21 +14,23 @@ const Resume = () => {
         Res<span>ume </span>
       </h2>
       <div className="buttons">
-        <PDFDownloadLink document={<MyDocument />} fileName="FORM">
+        {/* <PDFDownloadLink document={<MyDocument />} fileName="FORM">
           {({ loading }) =>
             loading ? <button>...Loading</button> : <button>Download</button>
           }
-        </PDFDownloadLink>
+        </PDFDownloadLink> */}
 
-        <button onClick={() => setPreview(!preview)}>
+        {/* <button onClick={() => setPreview(!preview)}>
           {preview ? "Hide Resume " : "Preview Resume"}
-        </button>
+        </button> */}
         {/* // new resume */}
         <a href="/resume.pdf" download>
           Updated Resume Donwload
         </a>
-        <button onClick={() => window.open("/resume.pdf", "_blank")}>
-          Preview New
+        <button
+          onClick={() => window.open("/Sayyad_Soheb_resume.pdf", "_blank")}
+        >
+          Preview
         </button>
       </div>
       {preview ? (

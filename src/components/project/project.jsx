@@ -9,11 +9,15 @@ const Project = () => {
       insurance anywhere. We provide insurance to all type of vehicles like
       (Bike, Car, Comarcial Vehicle, GCV ,Tractor etc)`,
       imgpath: `rb-uat.png`,
+      link: "https://uatcar.rbstaging.in/landing-page",
     },
     {
       title: "Shopper-e-Clothing",
       text: `This is a SHOPPER webside, in Which we have different type of cloths for Men, Women and kids `,
       imgpath: `shop.PNG`,
+      link: "https://graceful-biscochitos-8a415c.netlify.app/",
+      github: "https://github.com/soheb-funtune/e-com-front-end",
+      github2: "https://github.com/soheb-funtune/e-com-back-end",
     },
   ];
   return (
