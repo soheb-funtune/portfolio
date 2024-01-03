@@ -12,6 +12,9 @@ const Footer = () => {
   };
   return (
     <div id="contact" className="footer-container">
+      <h3 className="logoh3">
+        <a href="#header">Sayyad Soheb</a>
+      </h3>
       <div className="inner">
         <motion.div
           initial={{ x: -100, opacity: 0 }}
@@ -23,6 +26,12 @@ const Footer = () => {
           </h6>
           <h6 className="contact-text">
             Email : {` `} <span>{` `} sohebs5050@gmail.com</span>
+          </h6>
+          <h6 className="contact-text">
+            Address : {` `}{" "}
+            <span>
+              {` `} Khupsarwadi, Vishnuputi, Nanded, Maharashtra, India.
+            </span>
           </h6>
         </motion.div>
         <AnimatePresence>

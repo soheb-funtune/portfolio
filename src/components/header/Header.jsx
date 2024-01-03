@@ -6,7 +6,7 @@ import { useMediaPredicate } from "react-media-hook";
 const Header = () => {
   const lessthan600 = useMediaPredicate("(max-width: 600px)");
   return (
-    <div className="header">
+    <div id="header" className="header">
       <h3>
         <a href="#home">Sayyad Soheb</a>
       </h3>
