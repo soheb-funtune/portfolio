@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 import { motion } from "framer-motion";
+import Tooltip from "../Tooltip/Tooltip";
 
 const About = () => {
   return (
@@ -10,9 +11,20 @@ const About = () => {
         whileInView={{ x: 0, opacity: 1 }}
         transition={{ duration: 1 }}
       >
-        <h2 id="about" className="about-text">
-          ABOUT <span>ME</span>
-        </h2>
+        <Tooltip id="tooltip-about">
+          <h2
+            id="about"
+            className="about-text"
+            // href="#home"
+            data-tooltip-id="tooltip-about"
+            data-tooltip-html={`<h3>This is My Tooltip </h3><div>This is My Tooltip! A React JS Developer who loves solving problems and building projects. I am equipped with a variety of technologies and</div> `}
+            data-tooltip-variant={"warning"}
+            // data-tooltip-content={`This is My Tooltip!`}
+          >
+            ABOUT <span>ME</span>
+          </h2>
+        </Tooltip>
+
         <div className="container">
           <div className="image">
             <img src="/soheb2.jpg" alt="profile" />

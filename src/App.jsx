@@ -9,6 +9,7 @@ import Skills from "./components/skills/skills";
 import Resume from "./components/resume/resume";
 import Footer from "./components/footer/footer";
 import Project from "./components/project/project";
+import "react-tooltip/dist/react-tooltip.css";
 
 function App() {
   const { state } = useContext(ThemeContext);
