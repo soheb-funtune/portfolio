@@ -45,10 +45,12 @@
 }
 .content .desc {
   margin-top: 10px;
+  font-size: 12px;
 }
 .content .links {
   color: var(--primary2);
   text-decoration: underline;
+  margin-top: 10px;
 }
 
 @media (max-width: 767px) {

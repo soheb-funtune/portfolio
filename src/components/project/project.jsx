@@ -19,6 +19,14 @@ const Project = () => {
       github: "https://github.com/soheb-funtune/e-com-front-end",
       github2: "https://github.com/soheb-funtune/e-com-back-end",
     },
+    {
+      title: "My Youtube",
+      text: `I have created Youtube clone in which i have added some features of youtube by intergrating youtube-data-api's  `,
+      imgpath: `my-youtube.PNG`,
+      link: "https://shimmering-torte-7e3397.netlify.app/",
+      github: "https://github.com/soheb-funtune/youtube-clone",
+      // github2: "",
+    },
   ];
   return (
     <div className="project">
