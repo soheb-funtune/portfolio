@@ -29,7 +29,7 @@ const Project = () => {
     },
   ];
   return (
-    <div className="project">
+    <div className="project" id="projects">
       <h2 className="heading-text">
         PRO<span>JECTS </span>
       </h2>

@@ -6,7 +6,7 @@ export const ThemeContext = createContext();
 const initialValue = {
   val: 0,
   theme: { ...theme?.dark }, // You might want to initialize this properly
-  mode: "light",
+  mode: "dark",
 };
 
 const Reducer = (state, action) => {
