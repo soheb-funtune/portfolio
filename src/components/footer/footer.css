@@ -1,10 +1,11 @@
 .footer-container {
-  background: var(--primary) 0.5;
+  background: var(--bg2);
   /* color: var(--bg); */
+  /* background-color: white; */
   width: 100%;
   min-height: 100px;
   padding: 40px 40px;
-  position: absolute;
+  position: relative;
   left: 0;
   right: 0;
   display: flex;
@@ -27,7 +28,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: left;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
 }
 
@@ -51,7 +52,8 @@
 
 .up-arrow {
   position: absolute;
-  top: -20px;
+  color: var(--bg);
+  top: 20px;
   right: 20px;
 }
 .up-arrow .icon {

@@ -21,14 +21,17 @@ function App() {
   }, [state?.mode]);
 
   return (
-    <div className={`${theme} app`}>
-      <Header />
-      <Home />
-      <About />
-      <TimeLine />
-      <Skills />
-      <Project />
-      <Resume />
+    <div className={`${theme} app-without-p`}>
+      {" "}
+      <div className={`app`}>
+        <Header />
+        <Home />
+        <About />
+        <TimeLine />
+        <Skills />
+        <Project />
+        <Resume />
+      </div>
       <Footer />
     </div>
   );
