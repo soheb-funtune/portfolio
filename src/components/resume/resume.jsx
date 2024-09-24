@@ -24,12 +24,10 @@ const Resume = () => {
           {preview ? "Hide Resume " : "Preview Resume"}
         </button> */}
         {/* // new resume */}
-        <a href="/resume.pdf" download>
+        <a href="/sayyad-resume.pdf" download>
           Updated Resume Donwload
         </a>
-        <button
-          onClick={() => window.open("/Sayyad_Soheb_resume.pdf", "_blank")}
-        >
+        <button onClick={() => window.open("/sayyad-resume.pdf", "_blank")}>
           Preview
         </button>
       </div>
