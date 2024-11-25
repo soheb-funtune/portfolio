@@ -8,7 +8,7 @@ const TimeLine = () => {
       profession: "Full time Developer",
       role: "React js Developer",
       from: "Fyntune Solution Private Limited.",
-      duration: "jan 2022 - Aug 2022",
+      duration: "jan 2022 - Aug 2023",
     },
     {
       profession: "Developer",
